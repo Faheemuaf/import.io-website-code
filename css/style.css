@@ -1,0 +1,292 @@
+@import url(//db.onlinewebfonts.com/c/10875ab5a017f30340245f91c470c330?family=Maax+Rounded);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {font-family: "Maax Regular"; src: url("//db.onlinewebfonts.com/t/5f2c788cd3f888e155befe56d6244805.eot"); src: url("//db.onlinewebfonts.com/t/5f2c788cd3f888e155befe56d6244805.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/5f2c788cd3f888e155befe56d6244805.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/5f2c788cd3f888e155befe56d6244805.woff") format("woff"), url("//db.onlinewebfonts.com/t/5f2c788cd3f888e155befe56d6244805.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/5f2c788cd3f888e155befe56d6244805.svg#Maax Regular") format("svg"); }
+
+
+body, html {
+    height: 100%;
+    font-family: 'Maax Regular';
+}
+
+#wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+#header {
+    padding: 10px;
+    box-shadow: 0 4px 5px -2px rgb(0 0 0 / 22%), 0 2px 1px -1px rgb(0 0 0 / 5%);
+}
+
+.company-logo, .navigation, .detail-view, 
+ul li, .equal-col,
+.flag, #social-link ul li, .left-side, .right-side 
+{
+    display: inline-block;
+}
+
+.company-logo, .navigation, .detail-view, .flag {
+    vertical-align: middle;
+}
+
+.company-logo, .navigation, .detail-view {
+    width: 22%;  
+}
+
+.navigation{
+    width: 55%;
+    text-align: center;
+}
+
+.logo-img {
+    width: 150px;
+    height: 30px;
+    padding-top: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+ul li a {
+    text-decoration: none;
+    
+}
+
+ul li a, .arrow-icon, .detail-btn, .page-heading, .sub-list li a.active {
+    color: #151c96;
+}
+
+.list{
+    position: relative;
+}
+
+.sub-list {
+    display: none;
+}
+
+.list li a:hover + .sub-list {
+    display: block;
+}
+#solution {
+    width: 500px;
+    
+}
+.sub-list {
+    width: 200px;
+    background-color: white;
+    border: 1px solid white;
+    position: absolute;
+    top:100%; 
+    z-index: 1;
+}
+
+.sub-list li {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px;
+}
+
+.sub-list li a {
+    color: #72848E;
+    font-size: 14px; 
+}
+
+.arrow-icon {
+    padding-left: 10px;
+}
+
+.align-btn, .right-side{
+    text-align: right;
+}
+
+.detail-btn {
+    margin-left: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    text-decoration: none;
+    background-color: white;
+    border:  1px solid #151c96;
+    cursor: pointer;
+}
+.detail-btn:hover {
+    color: white;
+    background-color: royalblue;
+}
+
+.sub-header {
+    background-image: url(../images/solutions-masthead-bg.jpeg);
+    height: 150px;
+    background-size: cover;
+}
+
+.container {
+    max-width:1100px;
+    margin: 0 auto;
+}
+
+.container::after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+#page-title {
+    width:100%;
+    height: 150px;
+    position: relative;
+}
+
+.header-title, .page-heading, .page-desc, .page-info ul li  {
+    text-align: center;
+}
+.page-desc {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 10px;
+    font-weight:normal;
+}
+.header-title {
+    color: white;
+    line-height: 1.4px;
+    font-size: 45px;
+    font-weight: 400 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.page-info {
+    margin: 30px 0;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 20px -2px rgb(0 0 0 / 25%);
+    
+}
+
+.page-heading {
+    font-size: 45px;
+    padding: 10px;
+    height: 70px;
+    margin-top: 30px;
+}
+
+.page-info ul li {
+    width: 100%;
+    font-size: 16px;
+    padding-top: 15px;
+}
+.fa-check {
+    padding-right: 6px;
+}
+
+#meeting-time{
+    padding: 15px;
+    color: white;
+    background-color: #c81b48;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+}
+
+#footer {
+    border: 1px solid #e6e6e6;
+    margin-top: 100px;
+}
+
+.equal-col, #social-link ul li  {
+    width: calc(100% / 4);
+    margin-right: -4px;
+}
+
+.equal-col {
+    height: 250px;
+    overflow: auto;
+    margin-top: 50px;
+}
+
+h4 {
+    padding-left: 0;
+    color: #3138B0;
+}
+
+#hire-btn {
+border: 1px solid red;
+padding: 1px;
+border-radius: 30px;
+color: red;
+font-size: 14px;
+padding: 3px 16px;
+margin-left: 10px;
+}
+
+.equal-col ul li {
+    width: 100%;
+    padding-left: 0;
+    
+}
+
+.equal-col ul li a, .left-side ul li a{
+    color: #72848E;
+    line-height: 30px;
+}
+.equal-col ul li a:hover {
+    color: #3138B0;
+}
+
+.social-icon, .flag {
+    width: 30px;
+    height: auto;
+}
+
+.flag {
+    padding-top: 10px;
+}
+
+#social-link ul li {
+    padding-left: 25px;
+    font-size: 16px;
+}
+
+.country-name{
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.country-name a {
+    color: #72848E;
+}
+.country-name a:hover, .left-side ul li a:hover{
+    color: orange;
+}
+
+.phone-icon, .phone-number {
+    padding-left: 15px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.sub-footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.left-side  {
+    width: 80%;
+}
+
+.left-side ul li:first-child{
+    padding-left: 0px;
+}
+
+.right-side{
+    width: 19%;
+}
